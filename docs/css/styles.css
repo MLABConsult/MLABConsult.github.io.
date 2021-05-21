@@ -3743,7 +3743,7 @@ input[type=button].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #fed136;
+  background-color: #797D85;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -10481,4 +10481,33 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+@media (min-width: 768px) {
+  section {
+    padding: 0;
+  }
+}
+.medium-div {
+  width: 100%;
+  height: 100%;
+}
+
+.medium-widget-article__title {
+  display: inline-block;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1.5rem !important;
+  color: rgba(0, 0, 0, 0.9);
+  border: none;
+  text-decoration: none;
+}
+.medium-widget-article__item {
+  font-size: 1rem !important;
+  color: #6c757d !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
